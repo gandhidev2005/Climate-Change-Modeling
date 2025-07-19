@@ -1,8 +1,3 @@
-
-# Climate Change Modeling Internship Task
-# Author: Generated via ChatGPT for Dev Gandhi
-# Date: 19 July 2025
-
 # ------------------------------
 # 1. Importing required libraries
 # ------------------------------
