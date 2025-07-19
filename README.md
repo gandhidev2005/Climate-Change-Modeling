@@ -1,5 +1,5 @@
-# 🌍 Climate Change Modeling Project
-This repository contains the **Climate Change Modeling internship task implementation** using Machine Learning and Natural Language Processing (NLP) techniques on NASA Climate Change Facebook comments dataset.
+# 🌍 Climate Change Modeling
+This repository contains the **Climate Change Modeling** using Machine Learning and Natural Language Processing (NLP) techniques on NASA Climate Change Facebook comments dataset.
 
 ---
 ## 📁 Project Overview
