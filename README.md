@@ -1,10 +1,5 @@
 ## 🌎 Climate Change Modeling — NASA Facebook Comments (NLP)
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
-![NLP](https://img.shields.io/badge/NLP-Sentiment%20%7C%20Topics-8A2BE2)
-![License](https://img.shields.io/badge/License-Choose%20one%20for%20your%20repo-informational)
-
 Analyze public discourse around climate change using a curated dataset of NASA Climate Change Facebook comments. This repo includes a Jupyter notebook that performs:
 - 💬 Sentiment analysis (VADER)
 - 📈 Trend analysis over time
@@ -14,20 +9,19 @@ Analyze public discourse around climate change using a curated dataset of NASA C
 ### Project Contents
 - `Climate_Comments_Analysis.ipynb` — main analysis notebook
 - `climate_nasa.csv` — dataset of comments (date, likesCount, profileName, commentsCount, text)
-- `analysis_outputs/` — generated artifacts
-  - `climate_comments_enriched.csv`
-  - `sentiment_distribution.png` 📊
-  - `topics_top_words.png` 🧠
+- `climate_comments_enriched.csv`
+- `sentiment_distribution.png` 📊
+- `topics_top_words.png` 🧠
 
 ### 🔍 Preview
 
 Sentiment distribution
 
-![Sentiment distribution](analysis_outputs/sentiment_distribution.png)
+![Sentiment distribution](sentiment_distribution.png)
 
 Top words per topic
 
-![Topics top words](analysis_outputs/topics_top_words.png)
+![Topics top words](topics_top_words.png)
 
 ### Dataset
 Over 500 user comments collected from high-performing posts on NASA’s Facebook page dedicated to climate change (`https://web.facebook.com/NASAClimateChange/`). Columns:
@@ -54,9 +48,9 @@ jupyter notebook
 Open `Climate_Comments_Analysis.ipynb` and “Run All”. The first cell will install any missing Python packages (pandas, numpy, matplotlib, seaborn, nltk, scikit-learn) and download the VADER lexicon.
 
 Outputs are written to:
-- `analysis_outputs/climate_comments_enriched.csv`
-- `analysis_outputs/sentiment_distribution.png`
-- `analysis_outputs/topics_top_words.png`
+- `climate_comments_enriched.csv`
+- `sentiment_distribution.png`
+- `topics_top_words.png`
 
 ### 🧪 What the Notebook Does
 - 🧼 Cleans and types columns (`date`, numeric fields, normalized text)
@@ -77,4 +71,5 @@ You can tweak these in the topic modeling cell:
 ```bash
 pip install pandas numpy matplotlib seaborn nltk scikit-learn
 python -c "import nltk; nltk.download('vader_lexicon')"
+
 ```
